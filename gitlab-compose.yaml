@@ -2,7 +2,7 @@ name: "group4-final-project"
 
 services:
     gitlab-ee:
-        container_name: "gitlab-ee"
+        container_name: "gitlab"
         image: "gitlab/gitlab-ee:rc"
         restart: "always"
         networks:
