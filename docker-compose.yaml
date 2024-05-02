@@ -65,3 +65,4 @@ services:
 
 networks:
   group4_net:
+    driver: bridge
