@@ -16,7 +16,7 @@ services:
       - "/home/ubuntu/gitlab-docker-server/logs:/var/log/gitlab"
       - "/home/ubuntu/gitlab-docker-server/data:/var/opt/gitlab"
     hostname: "gitlab.en.605.609.81.sp24.group4.com"
-    shm_size: "256m"
+    shm_size: "512m"
     environment:
       - GITLAB_OMNIBUS_CONFIG="external_url 'http://gitlab.605.609.81.sp24.group4.com'"
 
